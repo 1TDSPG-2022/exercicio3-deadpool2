@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(black 10%, red 90%);;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment: fixed;
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+.container{
+    margin: 0 10% 0 10%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+}
