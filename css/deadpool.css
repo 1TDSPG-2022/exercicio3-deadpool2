@@ -1,16 +1,53 @@
-body{
-    background: linear-gradient(black 10%, red 90%);;
+body {
+    background: linear-gradient(black 10%, red 90%);
+    ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-attachment: fixed;
     color: white;
 }
-a{
+
+.links {
     text-decoration: none;
     font-weight: bold;
     color: blue;
+    transition: 1s ease;
 }
-.container{
+
+.links:hover {
+    background-color: darkred;
+    color: bisque;
+}
+
+.container {
     margin: 0 10% 0 10%;
     border: 2px solid black;
     box-shadow: 2px 2px 5px black;
+    flex-wrap: wrap;
+    padding: 5px 5px 150px 5px;
+    position: relative;
+}
+
+.box-pai {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.box-filho {
+    text-align: center;
+}
+
+figure {
+    position: absolute;
+}
+
+figure span {
+    font-weight: bold;
+}
+
+.rodape {
+    padding: 50px;
+    background: transparent;
+    font-size: 30px;
 }
