@@ -1,0 +1,42 @@
+
+body {
+    background-image: linear-gradient(black 20%,red 90%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-attachment: fixed;
+}
+
+.link {
+    color: blue;
+    font-weight: 900;
+    text-decoration: none;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+    color:white;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-block: 10%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+    padding: 5px 5px 150px 5px;
+    position: relative;
+}
+
+/* .legenda {
+    position: absolute;
+} */
+
+.rodapé {
+    padding: 50px;
+    background-color: rgb(0, 0, 0, 0.5);
+    text-size-adjust: 30px;
+}
+
