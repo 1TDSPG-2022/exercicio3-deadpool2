@@ -1,0 +1,19 @@
+.box-pai{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    width: 25%;
+    min-width: 335px;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+}
+.box-child6{
+    margin-left: -10%;
+}
+.texto{
+    position: absolute;
+    font-weight: bold;
+}
