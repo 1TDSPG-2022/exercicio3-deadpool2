@@ -51,3 +51,22 @@ figure span {
     background: transparent;
     font-size: 30px;
 }
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.menu li{
+    display: inline;
+    margin-left: 1rem;
+}
+
+.menu li a{
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
